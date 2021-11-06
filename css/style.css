@@ -1,0 +1,55 @@
+#hero-section
+{
+    background-image: url(../img/resortBg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#text-center
+{
+    background-color: rgba(137, 196, 244,0.4);
+    text-align: center;
+    color: white;
+    font-size:x-large;
+    
+}
+
+.footer
+{
+    text-align: center;
+    padding: 8px 0 8px 0 ;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.grid-resort
+{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    margin: 14px 0 0 0 ;
+    justify-items: center;
+
+}
+
+#resort-img
+{
+    width: 250px;
+}
+
+.border-1
+{
+    padding: 6px 5px;
+}
+
+.resort-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+}
+
+.nav .icon {
+    display: none;
+}

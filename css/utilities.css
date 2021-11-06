@@ -1,0 +1,128 @@
+*
+{
+    padding: 0;
+    margin: 0
+}
+body
+{
+    font-family:'Segoe UI';
+    position: relative;
+    min-height: 100vh;
+    height: 100%; 
+}
+main
+{
+    min-height: 100%;
+    padding-bottom: 2.5rem;
+}
+
+
+image
+{
+    height: 100%;
+}
+
+.header-footer
+{
+    background-color:#03223c;
+    color: white;
+
+}
+
+.header-footer a
+{
+    color: white;
+    text-decoration: none;
+    font-weight:bold ;
+}
+
+.nav li
+{
+    display: inline-block;
+    padding: 12px 20px 12px 50px;
+    
+}
+.nav
+{
+    padding: 0 0 0 20px;
+}
+
+.cover
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.grid-col-4
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.grid-col-4 img
+{
+    width: 275px;
+    height: 500px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.margin
+{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.bottom-radius
+{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+    margin: 0 0 24px 0;
+    padding: 10px 10px;
+}
+
+.padding
+{
+    padding: 0 68px;
+}
+.width input
+{
+    width: 1250px;
+}
+
+.grid-form button {
+    width: 150px;
+}
+
+.grid-form
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    margin-bottom: 10px;
+}
